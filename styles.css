@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------------------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus { outline: none;}
+
+html, button {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    
+    
+    background: linear-gradient(to bottom right, #a1c4fd , #bee3fb);
+    /* background-image: url(images/bg.jpeg); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*----------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*----------------------------------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+    /*  margin: top right bottom left; */
+    margin: 0 auto;
+    /*  margin: top/bottom right/left; */
+}
+
+section {
+    padding: 80px 0;
+    
+}
+
+/* ----- ICONS ----- */
+
+.icon {
+    vertical-align: middle;
+}
+
+/*----------------------------------------------*/
+/* GENERATOR SECTION */
+/*----------------------------------------------*/
+
+.generator {
+    position: absolute;
+    width: 1140px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gen-box {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #a4b8f1;
+    padding: 40px;
+}
+
+#quote {
+    opacity: 1;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 120%;
+    font-weight: 400;
+}
+
+#quote:before {
+    content: "\201C";
+    font-size: 270%;
+    position: relative;
+    top: 18px;
+}
+
+
+#author {
+    opacity: 1;
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#author:before {
+    content: " - ";
+}
+
+#reloadQuoe {
+    padding: 6px 30px 11px 30px;
+    font-weight: 400;
+    font-size: 80%;
+    border: 1px solid #a2c5fd;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#tweetQuoe {
+    padding: 2px 20px 6px 20px;
+    border: 1px solid #a2c5fd;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+
+.ion-social-twitter {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+
+
+/* fades */
+
+.fade-in{ opacity: 1 !important; }
+.fade-out{ opacity: 0 !important; }
+
+
+/* transitions */
+
+.transition-0-5{
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.transition-1{
+	-webkit-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+/* randomise colours */
+
+.body1 {background: linear-gradient(to bottom right, #ffe7e7 , #fbf2ec);}
+.gen-box1 {box-shadow: 0px 0px 20px 0px #e6c9c9;}
+.reloadQuoe1 {border: 1px solid #ffbcbc;}
