@@ -1,2 +1,2 @@
 # Random-Quote-Machine
-Shows Random Quotes on the Click of a Button Using API
+A simple Javascript app that Shows Random Quotes on the Click of a Button Using a random quote API
